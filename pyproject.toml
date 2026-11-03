@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "face-recognition"
+version = "0.1.0"
+description = "Face verification, identification with strangers, photo-album grouping and video face blurring with pretrained FaceNet."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Gauhet Poddar" }]
+requires-python = ">=3.10"
+# facenet-pytorch is installed separately with --no-deps (see the README): it pins PyTorch 2.2,
+# but works unchanged with current versions.
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "Pillow",
+    "opencv-python",
+    "scikit-learn",
+    "matplotlib",
+    "requests",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+demo = ["gradio"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

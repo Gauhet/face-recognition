@@ -1,0 +1,150 @@
+{
+  "photos": 13233,
+  "faces_found": 0.9999244313458777,
+  "verification": {
+    "facenet": {
+      "accuracy": 0.9935,
+      "accuracy_std": 0.003201562118716433,
+      "threshold": 1.0608119368553162,
+      "fold_accuracy": [
+        0.9966666666666667,
+        0.995,
+        0.9916666666666667,
+        0.99,
+        0.99,
+        0.9983333333333333,
+        0.9883333333333333,
+        0.995,
+        0.9966666666666667,
+        0.9933333333333333
+      ],
+      "tar_at_far_1pct": 0.9946666666666667,
+      "tar_at_far_0.1pct": 0.9836666666666667
+    },
+    "imagenet": {
+      "accuracy": 0.6948333333333333,
+      "accuracy_std": 0.01522881041534981,
+      "threshold": 0.609697961807251,
+      "fold_accuracy": [
+        0.7,
+        0.715,
+        0.6766666666666666,
+        0.6666666666666666,
+        0.7,
+        0.7133333333333334,
+        0.7033333333333334,
+        0.7016666666666667,
+        0.6783333333333333,
+        0.6933333333333334
+      ],
+      "tar_at_far_1pct": 0.14333333333333334,
+      "tar_at_far_0.1pct": 0.033
+    }
+  },
+  "robustness": {
+    "resolution": {
+      "160": 0.9935,
+      "80": 0.9928333333333332,
+      "40": 0.9908333333333333,
+      "24": 0.9693333333333334,
+      "16": 0.8975,
+      "12": 0.7998333333333333
+    },
+    "blur": {
+      "0": 0.9935,
+      "1": 0.9928333333333332,
+      "2": 0.9913333333333334,
+      "3": 0.9850000000000001,
+      "4": 0.9674999999999999,
+      "6": 0.8780000000000001
+    },
+    "covered": {
+      "none": 0.9935,
+      "eyes": 0.9583333333333333,
+      "mouth and nose": 0.962
+    }
+  },
+  "identification": {
+    "threshold": 1.0608119368553162,
+    "1_mean": {
+      "dir_at_threshold": 0.9826880034884831,
+      "far_at_threshold": 0.5214873078298177,
+      "strict_threshold": 0.7949999999999999,
+      "dir_at_strict": 0.8301715574450494,
+      "far_at_strict": 0.009367179120486235,
+      "closed_set_correct": 0.9869402177062137,
+      "gallery_people": 155,
+      "known_tests": 573,
+      "strangers": 5594
+    },
+    "1_nearest": {
+      "dir_at_threshold": 0.9826880034884831,
+      "far_at_threshold": 0.5214873078298177,
+      "strict_threshold": 0.7949999999999999,
+      "dir_at_strict": 0.8301715574450494,
+      "far_at_strict": 0.009367179120486235,
+      "closed_set_correct": 0.9869402177062137,
+      "gallery_people": 155,
+      "known_tests": 573,
+      "strangers": 5594
+    },
+    "3_mean": {
+      "dir_at_threshold": 0.9967979895375342,
+      "far_at_threshold": 0.5610296746514123,
+      "strict_threshold": 0.78,
+      "dir_at_strict": 0.9410624461003989,
+      "far_at_strict": 0.00947443689667501,
+      "closed_set_correct": 0.9975305902701349,
+      "gallery_people": 155,
+      "known_tests": 573,
+      "strangers": 5594
+    },
+    "3_nearest": {
+      "dir_at_threshold": 0.9960880653020941,
+      "far_at_threshold": 0.7109045405791921,
+      "strict_threshold": 0.76,
+      "dir_at_strict": 0.9099378111836322,
+      "far_at_strict": 0.009224168752234538,
+      "closed_set_correct": 0.9971869664009952,
+      "gallery_people": 155,
+      "known_tests": 573,
+      "strangers": 5594
+    },
+    "5_mean": {
+      "dir_at_threshold": 0.9978748243493086,
+      "far_at_threshold": 0.5715409367179121,
+      "strict_threshold": 0.78,
+      "dir_at_strict": 0.9608328598866669,
+      "far_at_strict": 0.009831962817304255,
+      "closed_set_correct": 0.998241124715609,
+      "gallery_people": 155,
+      "known_tests": 573,
+      "strangers": 5594
+    },
+    "5_nearest": {
+      "dir_at_threshold": 0.9960820388215834,
+      "far_at_threshold": 0.7826599928494816,
+      "strict_threshold": 0.745,
+      "dir_at_strict": 0.9273861728917554,
+      "far_at_strict": 0.009259921344297461,
+      "closed_set_correct": 0.9968146395541841,
+      "gallery_people": 155,
+      "known_tests": 573,
+      "strangers": 5594
+    }
+  },
+  "clustering": {
+    "best_threshold": 0.95,
+    "test_at_best": {
+      "bcubed_precision": 0.9820997711900002,
+      "bcubed_recall": 0.9775721366133523,
+      "bcubed_f1": 0.97952525408272,
+      "pair_precision": 0.9639401516673403,
+      "pair_recall": 0.9678719587184645,
+      "pair_f1": 0.9639194710347032,
+      "groups": 61.15,
+      "people": 60.0,
+      "photos": 187.55
+    }
+  }
+}

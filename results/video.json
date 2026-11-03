@@ -1,0 +1,78 @@
+{
+  "iss_clip_naming": {
+    "portrait_only@0.78": {
+      "frames": 449,
+      "faces": 902,
+      "held": 0,
+      "tracks": 2,
+      "label_changes_per_frame": 12,
+      "label_changes_tracked": 2,
+      "names_per_frame": {
+        "Zena Cardman": 14,
+        "unknown": 884
+      },
+      "names_tracked": {
+        "Zena Cardman": 12,
+        "unknown": 886
+      }
+    },
+    "portrait_only@0.9": {
+      "frames": 449,
+      "faces": 902,
+      "held": 0,
+      "tracks": 2,
+      "label_changes_per_frame": 100,
+      "label_changes_tracked": 4,
+      "names_per_frame": {
+        "Mike Fincke": 2,
+        "Zena Cardman": 297,
+        "unknown": 599
+      },
+      "names_tracked": {
+        "Zena Cardman": 370,
+        "unknown": 528
+      }
+    },
+    "portrait_plus_3@0.78": {
+      "frames": 449,
+      "faces": 902,
+      "held": 0,
+      "tracks": 2,
+      "label_changes_per_frame": 202,
+      "label_changes_tracked": 24,
+      "names_per_frame": {
+        "Mike Fincke": 185,
+        "Zena Cardman": 245,
+        "unknown": 468
+      },
+      "names_tracked": {
+        "Mike Fincke": 261,
+        "Zena Cardman": 346,
+        "unknown": 291
+      }
+    },
+    "portrait_plus_3@0.9": {
+      "frames": 449,
+      "faces": 902,
+      "held": 0,
+      "tracks": 2,
+      "label_changes_per_frame": 12,
+      "label_changes_tracked": 0,
+      "names_per_frame": {
+        "Mike Fincke": 446,
+        "Zena Cardman": 443,
+        "unknown": 9
+      },
+      "names_tracked": {
+        "Mike Fincke": 449,
+        "Zena Cardman": 449
+      }
+    }
+  },
+  "crowd_clip_blurring": {
+    "frames": 264,
+    "faces": 8756,
+    "held": 3930,
+    "tracks": 94
+  }
+}

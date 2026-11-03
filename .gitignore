@@ -1,0 +1,28 @@
+# Dataset and cached embeddings (downloaded and computed on first run)
+data/
+
+# Model weights
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Outputs from the command-line tools
+outputs/
+
+# Evaluation progress log
+results/*.log
