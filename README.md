@@ -5,8 +5,8 @@
 Finds faces in photos and video and tells you who they are, whether two photos show the same
 person, and which photos in an album belong together. It can also blur the faces in a video.
 It uses a pretrained face detector (MTCNN) and face embedding network (FaceNet), and measures them
-on Labeled Faces in the Wild (LFW): **99.35% verification accuracy**, and **96% of faces named
-correctly while only 1% of strangers are named as someone**.
+on Labeled Faces in the Wild (LFW): **99.35% verification accuracy**, and, with five photos of
+each known person, **96% of faces named correctly while only 1% of strangers are named as someone**.
 
 ![Two astronauts named in ISS video](assets/naming.gif)
 
